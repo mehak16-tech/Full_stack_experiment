@@ -1,0 +1,47 @@
+body {
+  background-color: #f5f7fa;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.card {
+  border-radius: 12px !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card .card-title {
+  font-weight: 600;
+}
+
+.btn.btn-primary {
+  border-radius: 20px;
+  padding: 6px 16px;
+}
+
+.table {
+  background-color: white;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.table thead th {
+  background-color: #0d6efd !important;
+  color: white !important;
+}
+
+h5 {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.text-muted {
+  font-style: italic;
+}
